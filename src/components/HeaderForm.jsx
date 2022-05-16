@@ -24,7 +24,7 @@ const HeaderForm = () => {
             <option value="people"> People </option>
             <option value="planets"> Planet </option>
             <option value="starships"> Starships</option>
-          </select>
+          </select> <br />
           ID: 
           <input type="text" name="id" value={id}
             onChange={e => setId(e.target.value)} />

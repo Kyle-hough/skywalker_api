@@ -14,6 +14,7 @@ function App() {
       <HeaderForm />
 
       <Routes>
+        <Route path="" element={<></>}/>
         <Route path="/people/:id" element={<People />}/>
         <Route path="/planets/:id" element={<Planets />} />
         <Route path="/starships/:id" element={<Starships />} />
